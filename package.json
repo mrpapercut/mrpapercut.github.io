@@ -1,0 +1,17 @@
+{
+  "name": "mrpapercut.github.io",
+  "version": "0.0.1",
+  "description": "ERROR: No README.md file found!",
+  "dependencies": {
+    "mout": "~0.8.0",
+	"wrapup-partition": "0.0.7",
+    "grunt": "~0.4.2",
+    "grunt-cli": "0.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-wrapup": "~0.1.0",
+    "grunt-wrapup-partition": "~0.0.2",
+    "grunt-sass": "^0.14.0",
+    "grunt-concurrent": "~0.4.2"
+  }
+}

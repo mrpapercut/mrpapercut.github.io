@@ -6,17 +6,42 @@
 	<title>Mrpapercut's github</title>
 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
+	<link href="css/app.css" rel="stylesheet">
 
-	<script src="//ajax.googleapis.com/ajax/libs/mootools/1.5.1/mootools-yui-compressed.js"></script>
-	<script src="js/app.js"></script>
+	<script src="js/libs/mootools-core-1.5.1.js"></script>
+	<script src="js/libs/mootools-more-1.5.1.js"></script>
+	<script src="js/libs/powertools-1.2.0.js"></script>
+	<script src="js/libs/require.js"></script>
+	<script src="js/build/app.build.js"></script>
+	<script>
+	requirejs(['js/app'], function(){});
+	</script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
 <body>
-
-	<script>
-	window.addEvent('domready', function() {
-		new App();
-	});
-	</script>
+	<header>
+		<div id="mainlogo"></div>
+		<nav>
+			<ul>
+				<li id="backtotop"><a href="#top" title="Top">Back to top</a>
+				<li><a href="#project1" title="Project 1">Project 1</a>
+				<li><a href="#project2" title="Project 2">Project 2</a>
+			</ul>
+		</nav>
+	</header>
+	<main class="container">
+		<section id="project1">
+			<h2>Project 1</h2>
+			<p>Bla bla bla</p>
+		</section>
+		<section id="project2">
+			<h2>Project 2</h2>
+			<p>Bla bla bla</p>
+		</section>
+	</main>
+	<footer class="show">
+		Footer bla bla bla
+	</footer>
 </body>
 </html>
