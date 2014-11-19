@@ -1,1 +1,113 @@
-body{min-height:1000px;}a{color:#3cbcfc;}header{height:65px;width:100%;position:fixed;transition:all 0.25s;background:#3cbcfc;border-bottom:1px solid #ccc;box-shadow:0 0 5px rgba(0, 0, 0, 0.2);line-height:64px;overflow:hidden;}header.small{height:33px;line-height:32px;}header #mainlogo{transition:inherit;background:url(../img/logo-64.png) no-repeat top left;background-size:100%;width:64px;height:64px;float:left;margin:0 0 0 10px;}header.small #mainlogo{width:32px;height:32px;}header nav{transition:inherit;background:#fff;float:left;margin-left:10px;width:calc(100% - 84px);height:100%;line-height:64px;position:relative;font-size:14px;}header nav li{display:inline;float:left;position:relative;margin:0 10px;}header nav li:after{content:'\2022';position:absolute;top:0;right:-12px;}header nav li:last-child:after{display:none;}header nav #backtotop{display:none;}header.small nav{width:calc(100% - 52px);line-height:32px;}header.small nav #backtotop{display:block;}main.container{margin-top:70px;float:left;}main.container section{border-bottom:1px solid #ccc;}footer{height:32px;width:100%;position:fixed;bottom:0;transition:all 0.25s;opacity:0;border-top:1px solid #ccc;box-shadow:0 0 5px rgba(0, 0, 0, 0.2);}footer.show{opacity:1;}
+/* line 3, Z:/mrpapercut.github.io/./css/app.scss */
+body {
+  min-height: 1000px;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+/* line 8, Z:/mrpapercut.github.io/./css/app.scss */
+a {
+  color: #3cbcfc; }
+  /* line 12, Z:/mrpapercut.github.io/./css/app.scss */
+  a:hover, a:focus {
+    color: #3cbcfc;
+    text-decoration: none;
+    border-bottom: 1px solid #3cbcfc; }
+
+/* line 19, Z:/mrpapercut.github.io/./css/app.scss */
+header {
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  transition: all 0.25s;
+  background: #3cbcfc;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  line-height: 64px;
+  overflow: hidden;
+  z-index: 10; }
+  /* line 31, Z:/mrpapercut.github.io/./css/app.scss */
+  header.small {
+    height: 33px;
+    line-height: 32px; }
+  /* line 36, Z:/mrpapercut.github.io/./css/app.scss */
+  header #mainlogo {
+    transition: inherit;
+    background: url(../img/logo-64.png) no-repeat top left;
+    background-size: 100%;
+    width: 64px;
+    height: 64px;
+    float: left;
+    margin: 0 0 0 10px; }
+  /* line 46, Z:/mrpapercut.github.io/./css/app.scss */
+  header.small #mainlogo {
+    width: 32px;
+    height: 32px; }
+  /* line 51, Z:/mrpapercut.github.io/./css/app.scss */
+  header nav {
+    transition: inherit;
+    background: #fff;
+    float: left;
+    margin-left: 10px;
+    width: calc(100% - 84px);
+    height: 100%;
+    line-height: 64px;
+    position: relative;
+    font-size: 14px; }
+    /* line 62, Z:/mrpapercut.github.io/./css/app.scss */
+    header nav li {
+      display: inline;
+      float: left;
+      position: relative;
+      margin: 0 10px; }
+      /* line 68, Z:/mrpapercut.github.io/./css/app.scss */
+      header nav li:after {
+        content: '\2022';
+        position: absolute;
+        top: 0;
+        right: -12px; }
+      /* line 75, Z:/mrpapercut.github.io/./css/app.scss */
+      header nav li:last-child:after {
+        display: none; }
+    /* line 80, Z:/mrpapercut.github.io/./css/app.scss */
+    header nav #backtotop {
+      display: none; }
+  /* line 85, Z:/mrpapercut.github.io/./css/app.scss */
+  header.small nav {
+    width: calc(100% - 52px);
+    line-height: 32px; }
+    /* line 89, Z:/mrpapercut.github.io/./css/app.scss */
+    header.small nav #backtotop {
+      display: block; }
+
+/* line 95, Z:/mrpapercut.github.io/./css/app.scss */
+main.container {
+  margin: 70px 0 40px;
+  float: left;
+  position: relative; }
+  /* line 100, Z:/mrpapercut.github.io/./css/app.scss */
+  main.container section {
+    border-bottom: 1px solid #ccc;
+    float: left;
+    width: 100%;
+    padding-bottom: 1em; }
+    /* line 106, Z:/mrpapercut.github.io/./css/app.scss */
+    main.container section span.language {
+      font-size: 14px;
+      float: right; }
+    /* line 112, Z:/mrpapercut.github.io/./css/app.scss */
+    main.container section .dates span {
+      float: left;
+      clear: both; }
+
+/* line 120, Z:/mrpapercut.github.io/./css/app.scss */
+footer {
+  height: 32px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  transition: all 0.25s;
+  opacity: 0;
+  border-top: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); }
+  /* line 130, Z:/mrpapercut.github.io/./css/app.scss */
+  footer.show {
+    opacity: 1; }
