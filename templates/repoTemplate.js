@@ -16,7 +16,7 @@ lastModified: self.parseRepoDate(repo.updated_at)
 
 module.exports = function(data) {
 	var template  = '<section id="{id}">';
-		template += '	<h2><a href="{url}">{name}</a><span class="language">({language})</h2>';
+		template += '	<h2><a href="{url}" target="_blank">{name}</a><span class="language">({language})</h2>';
 		template += '	<p class="description">{description}</p>';
 		template += '	<p class="dates">';
 		template += '		<span>Created: <strong>{createDate}</strong></span>';
